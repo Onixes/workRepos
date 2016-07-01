@@ -39,7 +39,6 @@ namespace newProject
             {
                 Console.WriteLine(new Calculate().SelectOperation(op, x, y));
             }
-            else { Console.WriteLine("Вы не выбрали операцию"); }
             Console.ReadKey();
         }
     }
